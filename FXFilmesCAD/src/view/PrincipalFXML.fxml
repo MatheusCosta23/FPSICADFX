@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="apMain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="652.0" styleClass="anchor" stylesheets="@application.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button id="btnAdicionar" fx:id="btnAdicionar" layoutX="35.0" layoutY="214.0" mnemonicParsing="false" text="Adicionar Filme" />
+      <TextField id="txtNomemFilme" fx:id="txtNomemFilme" layoutX="157.0" layoutY="39.0" />
+      <TextField id="txtDiretor" fx:id="txtDiretor" layoutX="157.0" layoutY="82.0" />
+      <Text fill="WHITE" layoutX="14.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome do Filme">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Text>
+      <TextField id="txtAno" fx:id="txtAno" layoutX="157.0" layoutY="126.0" />
+      <TextField id="txtGenero" fx:id="txtGenero" layoutX="157.0" layoutY="166.0" />
+      <ListView id="lvListar" fx:id="lvListar" layoutX="319.0" layoutY="13.0" prefHeight="375.0" prefWidth="319.0" />
+      <Button id="btnListar" fx:id="btnListar" layoutX="142.0" layoutY="214.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="98.0" text="Listar Filmes" />
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="59.0" layoutY="27.0" stroke="#e16868" strokeLineCap="BUTT" strokeLineJoin="BEVEL" strokeWidth="0.0" text="Filmoteca Master" wrappingWidth="195.57421875">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="15.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome do Diretor">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="14.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ano de Lançamento">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="15.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Genero Filme">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Button id="btnSair" fx:id="btnSair" layoutX="255.0" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="Sair" />
+      <Button id="btnAdicionar" fx:id="btnAdicionar1" layoutX="45.0" layoutY="265.0" mnemonicParsing="false" text="Editar Filme" />
+      <Button id="btnAdicionar" fx:id="btnAdicionar2" layoutX="150.0" layoutY="265.0" mnemonicParsing="false" text="Excluir Filme" />
+      <Button id="btnListar" fx:id="btnListar1" layoutX="71.0" layoutY="304.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="124.0" text="Pesquisar Filmes" />
+   </children>
+</AnchorPane>

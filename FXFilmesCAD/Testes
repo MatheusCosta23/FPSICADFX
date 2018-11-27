@@ -1,0 +1,27 @@
+/*public class Principal{
+public static void main(String[] args) {
+	
+	
+	//TESTA CONEXÃO JDBC
+	/*Connection C =	CNXJDBC.Conecta();
+	if(C == null)
+	System.out.println("NÃO CONECTA");
+	else
+		System.out.println("Conectouuu");*/
+
+	
+	//TESTA INSERIR
+		/*FilmesDAO filmDAO = new FilmesDAO();
+		Filmes umfilm = new Filmes();
+		umfilm.setNomeFilme("Pulp Fiction");
+		umfilm.setDiretor("Tarantino");
+		umfilm.setAno(1995);
+		umfilm.setGenero("Indie");
+		//	
+		filmDAO.inserirFilme(umfilm);
+		//	
+		ArrayList<Filmes> listFilmes = filmDAO.ListarAllFilmes();
+			for(Filmes umFilmes : listFilmes)
+				System.out.println(umfilm.toString());*/
+
+}
